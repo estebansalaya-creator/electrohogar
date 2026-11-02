@@ -1,0 +1,20 @@
+# Configuración local con contraseñas
+app/config.php
+config.local.php
+# Sesiones y archivos temporales
+storage/
+# Archivos de catálogo con datos reales
+*.csv
+!database/plantilla_productos.csv
+# Fotos subidas desde el panel (en Railway viven en el volumen)
+public/assets/img/subidas/*
+!public/assets/img/subidas/web.config
+# Copias de la base (dumps de DBeaver o mysqldump): tienen datos de clientes y contraseñas
+/*.sql
+/*.zip
+*.dump
+# Material original que mandó el cliente (las versiones que usa el sitio están en public/assets/img)
+/carlosconfort
+/fotolocal*.jpg
+/localnueva.webp
+/logocarlos.webp

@@ -1,0 +1,4 @@
+# Los scripts del contenedor tienen que quedar con saltos de línea de Linux
+*.sh text eol=lf
+Dockerfile text eol=lf
+docker/* text eol=lf

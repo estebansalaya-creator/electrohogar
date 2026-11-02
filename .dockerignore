@@ -1,0 +1,15 @@
+# Solo entra a la imagen lo necesario para correr la tienda.
+*
+!Dockerfile
+!docker
+!app
+!public
+!database
+!herramientas
+# Nunca: contraseñas, llaves ni datos locales
+app/config.php
+config.local.php
+storage
+public/assets/img/subidas
+**/*.csv
+!database/plantilla_productos.csv

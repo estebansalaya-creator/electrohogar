@@ -1,0 +1,3 @@
+sku;nombre;rubro;categoria;marca;precio;precio_lista;stock;cuotas;envio_gratis;destacado;imagen;descripcion;iva;activo
+CC-HEL-101;Heladera No Frost 300 L blanca;Electrodomésticos;Heladeras y freezers;Gafa;1.150.000;1.299.999;6;6;si;no;productos/heladera-blanco.svg;Heladera No Frost con freezer superior.;21;si
+CC-COL-201;Colchón espuma 2 plazas 140 x 190;Descanso;Colchones;Gaona;520.000;;4;12;si;si;;Colchón de espuma de alta densidad.;21;si
